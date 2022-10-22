@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>word animation</title>
+    <style>
+        body{
+            background-color: azure;
+            /* opacity: 0.3; */
+        }
+        div{
+            font-size: 100px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            position: absolute;
+            top: 40%;
+            left: 42%;
+            animation: ami;
+            animation-duration: 3s;
+            animation-direction: normal;
+            animation-iteration-count: infinite;
+        
+            
+        }
+        @keyframes ami{
+            0%{
+                color: yellowgreen;
+                text-shadow: 4px 4px 7px yellowgreen;
+            }
+            20%{
+                color: turquoise;
+                text-shadow: 4px 4px 7px turquoise;
+            }
+            40%{
+                color: aqua;
+                text-shadow: 4px 4px 7px aqua;
+            }
+            60%{
+                color: thistle;
+                text-shadow: 4px 4px 7px thistle;
+            }
+            80%{
+                color: tomato;
+                text-shadow: 4px 4px 7px tomato;
+            }
+            100%{
+                color: steelblue;
+                text-shadow: 4px 4px 7px steelblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>TOPS</div>
+</body>
+</html>
