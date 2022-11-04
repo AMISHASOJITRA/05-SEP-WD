@@ -1,0 +1,24 @@
+div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.col1{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+.col2{
+    height: 200px;
+    width: 200px;
+    background-color: firebrick;
+}
+.col3{
+    height: 200px;
+    width: 200px;
+    background-color: forestgreen;
+}
+.col4{
+    height: 200px;
+    width: 200px;
+    background-color: hotpink;
+}

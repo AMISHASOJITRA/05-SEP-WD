@@ -1,0 +1,24 @@
+div{
+    display: flex;
+    justify-content: space-around;
+}
+.col1{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+}
+.col2{
+    height: 200px;
+    width: 200px;
+    background-color: seagreen;
+}
+.col3{
+    height: 200px;
+    width: 200px;
+    background-color: olive;
+}
+.col4{
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+}

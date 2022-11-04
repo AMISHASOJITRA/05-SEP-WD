@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+}
+
+
+.col1{
+    height: 200px;
+    flex-basis: 23%;
+    border: 2px double;
+}
+.col2{
+    height: 200px;
+    flex-basis: 23%;
+    border: 2px double;
+}
+.col3{
+    height: 200px;
+    flex-basis: 23%;
+    border: 2px double;
+}
+.col4{
+    height: 200px;
+    flex-basis: 23%;
+    border: 2px double;
+}
+@media(max-width:576px){
+    .main{
+        flex-direction: column;
+    }
+}

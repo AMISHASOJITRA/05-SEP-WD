@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+}
+
+
+
+
+
+
+.col1{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+}
+.col2{
+    height: 200px;
+    width: 200px;
+    background-color: turquoise;
+}
+.col3{
+    height: 200px;
+    width: 200px;
+    background-color: darkblue;
+}
+.col4{
+    height: 200px;
+    width: 200px;
+    background-color: goldenrod;
+}
+

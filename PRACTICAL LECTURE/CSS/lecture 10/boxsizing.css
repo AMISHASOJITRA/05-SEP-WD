@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+.col1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    overflow: hidden;
+}
+.col2{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    overflow: hidden;
+}
+.col3{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    overflow: hidden;
+}
