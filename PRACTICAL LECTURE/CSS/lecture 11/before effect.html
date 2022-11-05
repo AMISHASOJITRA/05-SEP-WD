@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>before effect</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .a{
+            height: 200px;
+            width: 300px;
+        }
+        .a img{
+            height: 100%;
+            width: 100%;
+        }
+        .a::before{
+            content: "";
+            position: absolute;
+            top: 0%;
+            bottom: 0%;
+            right: 0%;
+            left: 0%;
+            background-image:linear-gradient(teal, white, skyblue, black);
+            opacity: 0.5;
+            height: 200px;
+            width: 300px;
+         }
+        
+    </style>
+</head>
+<body>
+    <div class="a">
+        <img src="sunflower.webp">
+    </div>
+        
+        
+    
+</body>
+</html>
