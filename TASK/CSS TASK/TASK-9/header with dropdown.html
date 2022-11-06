@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header with dropdown</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        nav:after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+        nav .logo{
+            float: left;
+        }
+        nav .logo img{
+            height: 120px;
+            width: 75%;
+        }
+        nav ul{
+            float: right;
+            list-style: none;
+            margin-right: 40px;
+            position: relative;
+        }
+        nav ul li{
+            float: left;
+            display: inline-block;
+            margin: 0 5px;
+        }
+        nav ul li a{
+            color: rgb(17, 51, 81);
+            text-decoration: none;
+            line-height: 70px;
+            font-size: 18px;
+            padding: 8px 15px;
+        }
+        nav ul li a:hover{
+            box-shadow: 0 0 5px;
+            border-radius: 9px;
+            color: cyan;
+        }
+        nav ul ul a:hover{
+            box-shadow: none;
+            color: cyan;
+        }
+        nav ul ul{
+            position: absolute;
+            top: 70px;
+            display: none;
+            border-top: 3px solid cyan;
+        }
+        nav ul li:hover ul{
+            display: block;
+        }
+        nav ul ul li{
+            position: relative;
+            margin: 0px;
+            width: 150px;
+            float: none;
+            display: list-item;
+            border-bottom: 1px solid rgba(0, 0, 0,0.3);
+
+        }
+    </style>
+
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="web logo.jpg">
+        </div>
+            <ul>
+                
+                <li><a href="#">Home</a></li>
+               
+                <li>
+                    <a href="#">Features</a>
+                    <ul>
+                        <li><a href="">Pages</a></li>
+                        <li><a href="">Elements</a></li>
+                        <li><a href="">Icons</a></li>
+                    </ul>
+                </li>
+               
+                <li>
+                    <a href="#">Services</a>
+                    <ul>
+                        <li><a href="">Web design</a></li>
+                        <li><a href="">App design</a></li>
+                        <li>
+                            <a href="">more</a>
+                            <ul>
+                                <li><a href="">submenu 1</a></li>
+                                <li><a href="">submenu 2</a></li>
+                                <li><a href="">submenu 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li><a href="">Portfolio</a></li>
+               
+                <li><a href="">contact</a></li>
+            
+            </ul>
+    </nav>
+</body>
+</html>
