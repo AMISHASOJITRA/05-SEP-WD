@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Playfair+Display:ital,wght@0,600;1,400&family=Silkscreen:wght@400;700&family=Source+Code+Pro:ital,wght@0,600;0,700;1,700&display=swap" rel="stylesheet">
+
+    <title>Day 6</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        header{
+            height: 100vh;
+            width: 100%;
+            background-image: url(tavelpicture.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .logo{
+            height: 120px;
+            width: 10%;
+            /* border: 1px solid black; */
+            float: left;
+        }
+        .logo img{
+            height: 100%;
+            width: 100%;
+        }
+        nav{
+            height: 120px;
+            width: 80%;
+            /* border: 1px solid black; */
+            float: left;
+        }
+        nav ul{
+            list-style: none;
+        }
+        nav ul  li{
+            display: inline-block;
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+        nav ul li a{
+            font-size: x-large;
+            text-decoration: none;
+            padding: 57px;
+            text-transform: capitalize;
+            color: steelblue;
+        }
+        nav ul li a:hover{
+            text-decoration: underline;
+        }
+        .text{
+            height: 400px;
+            width: 600px;
+            /* border: 1px solid black; */
+            position: absolute;
+            top: 25%;
+            left: 10%;
+        }
+        .text h1{
+            font-size: 50px;
+            letter-spacing: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: steelblue;
+        }
+        .text h2{
+            font-size: 40px;
+            letter-spacing: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: steelblue;
+        }
+        .text h3{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-transform: capitalize;
+            color: steelblue;
+        }
+        .text input{
+            width: 350px;
+            border: 2px solid steelblue;
+        }
+        .text button{
+            background-color: steelblue;
+            border: 2px solid steelblue;
+            color: blanchedalmond;
+        }
+        .icon{
+            position: absolute;
+            top: 90%;
+            left: 10%;
+            letter-spacing: 10px;
+        }
+        .icon a i{
+            color: steelblue;
+        }
+        
+        
+        
+        @media(max-width:576px){
+            header{
+                height: 130vh;
+                width: 100%;
+                background-size: cover;
+                background-image: url(btravel.jpg);
+            }
+            .logo{
+                width: 25%;
+            }
+            nav{
+                width: 75%;
+            }
+            nav ul li{
+                margin-left: 0px;
+            }
+            nav ul li a{
+                padding: 10px;
+            }
+            .text{
+                height: 500px;
+                width: 50%;
+                position: absolute;
+                top: 40%;
+                left: 10%;
+            }
+            text h1{
+            font-size: 10px;
+            
+            letter-spacing: 10px;
+            /* font-family: Georgia, 'Times New Roman', Times, serif; */
+            /* color: steelblue; */
+        }
+        .text h2{
+            font-size: 20px;
+            /* letter-spacing: 10px; */
+            /* font-family: Georgia, 'Times New Roman', Times, serif; */
+            /* color: steelblue; */
+        }
+        .text h3{
+            /* font-family: Georgia, 'Times New Roman', Times, serif; */
+            /* text-transform: capitalize; */
+            /* color: steelblue; */
+            font-size: 14px;
+        }
+        .text input{
+            width: 230px;
+            /* border: 2px solid steelblue; */
+        }
+        .text button{
+            background-color: steelblue;
+            border: 2px solid stee/lblue;
+            color: blanchedalmond;
+        }
+        .icon{
+            position: absolute;
+            top: 100%;
+            left: 10%;
+            letter-spacing: 10px;
+        }
+         }
+        
+        
+        
+        
+        
+        
+        
+     section{
+            height: 100vh;
+            width: 100%;
+            background-color: rgb(141, 167, 194);   
+        }
+        h1{
+            text-align: center;
+            font-size: 70px;
+            font-family: 'Playfair Display', serif;
+            text-shadow: 5px 5px 5px;
+            color: palevioletred;
+            text-decoration: double;
+
+
+            
+        }
+        .main{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 10%;
+    
+    
+        }
+        .box1{
+            height: 230px;
+            width: 200px;
+            border: 7px double black;
+            background-image: url(london.jpg);
+            background-size: cover;
+            text-align: center;
+            
+        }
+        .box1 a i{
+            color: black;
+            background-color: yellow;
+            opacity: 0.9;
+            height: 32px;
+            width: 200px;
+            margin-top: 2px;
+        }
+        .box1 a i:hover{
+            opacity: 0.5;
+        }
+        .box2{
+            height: 230px;
+            width: 200px;
+            
+            background-image: url(dubai.jpg);
+            border: 7px double black;
+            background-size: cover;
+            text-align: center;
+            
+        }
+        .box2 a i{
+            color: black;
+            background-color: yellow;
+            /* font-size: large; */
+            height: 32px;
+            opacity: 0.9;
+            width: 200px;
+            margin-top: 19px;
+        }
+        .box2 a i:hover{
+            opacity: 0.5;
+        }
+        .box3{
+            height: 230px;
+            width: 200px;
+        
+            border: 7px double black;
+            background-image: url(nepal.jpg);
+            background-size: cover;
+            text-align: center;
+        }
+        .box3 a i{
+            color: black;
+            background-color: yellow;
+            /* font-size: large; */
+            height: 32px;
+            opacity: 0.9;
+            width: 200px;
+            margin-top: 19px;
+        }
+        .box3 a i:hover{
+            opacity: 0.5;
+        }
+
+
+
+
+        @media(max-width:576px){
+            section{
+                height: 300vh;
+                width: 100%;
+            }
+            .main{
+                flex-direction: column;
+                
+            }
+            .box1{
+                /* justify-content: space-around; */
+                width: 50%;
+                margin-left: 25%;
+                
+
+            }
+            .box1 p{
+                font-size: 19px;
+            }
+            .box2{
+                /* justify-content: space-around; */
+                width: 50%;
+                margin-left: 25%;
+                margin-top: 30px;
+                
+            }
+            .box2{
+                font-size: 20px;
+            }
+            .box3{
+                /* justify-content: space-around; */
+                width: 50%;
+                margin-left: 25%;
+                margin-top: 30px;
+            }
+            .box3{
+                font-size: 20px;
+            }
+        
+        
+        
+        
+        
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="travel_logo_2-removebg-preview.png">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">tour</a></li>
+                <li><a href="">hotels</a></li>
+                <li><a href="">contact</a></li>
+                
+            </ul>
+        </nav>
+        <div class="text">
+            <h1>DISCOVER</h1>
+            <H2>THE WORLD</H2>
+            <h3>FIND GREAT PLACES TO STAY , EAT, SHOP OR VISIT FROM LOCAL EXPERTS</h3><br>
+            <input type="search"><button>search</button>
+        </div>
+        <div class="icon">
+        <a href=""><i class="fa fa-instagram" style="font-size:36px"></i></a>
+        <a href=""><i class="fa fa-facebook-square" style="font-size:36px"></i></a>
+        <a href=""><i class="fa fa-twitter" style="font-size:36px"></i></a>
+        </div>       
+    </header>
+    <section>
+        <h1>PLACES</h1>
+        <div class="main">
+       
+        <div class="box1">
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto id eius aliquam quisquam maxime distinctio doloribus, ipsam officiis laborum? Nam aliquid quos suscipit in soluta reprehenderit voluptatem molestias voluptate nihil?</P><br>
+            <a href=""><i class="fa fa-map-marker" style="font-size:30px"> London</i></a>
+        </div>
+       
+        <div class="box2">
+            <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint tempore, architecto iusto, optio ipsam eaque vero corrupti voluptas quo minima at nostrum commodi sed debitis repellat, fugiat neque magnam accusamus.</P>
+            <a href=""><i class="fa fa-map-marker" style="font-size:30px"> Dubai</i></a>
+        </div>
+       
+        <div class="box3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptas, ad veritatis nemo aliquid explicabo excepturi provident quis ratione delectus qui quisquam optio alias. Neque at repellat nihil temporibus nesciunt.</p>
+            <a href=""><i class="fa fa-map-marker" style="font-size:30px"> Nepal</i></a>
+        </div>
+       
+    </div>
+    </section>
+</body>
+</html>
