@@ -1,0 +1,222 @@
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    header{
+        height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(group.jpg);
+        background-size: cover;
+        
+    }
+    .logo{
+        height: 120px;
+        width: 120px;
+        margin-left: 45%;
+    }
+    .logo img{
+        height: 100%;
+        width: 100%;
+    }
+    .text{
+        height: 100px;
+        width: 900px;
+        /* border: 1px solid yellow; */
+        margin-top: 22%;
+        margin-left: 22%;
+        color: antiquewhite;
+        text-align: center;
+        letter-spacing: 10px;
+    }
+
+    /* section */
+    section{
+        height: 100vh;
+        width: 100%;
+         background-color: rgba(0, 0, 0, 0.90);
+    }
+   .img{
+        height: 400px;
+        width: 300px;
+        /* border: 1px solid yellow; */
+        margin-top: 100px;
+        margin-left: 350px;
+        position: absolute;
+    }
+    .img img{
+        height: 100%;
+        width: 100%;
+    }
+    .about{
+        height: 200px;
+        width: 500px;
+        /* border: 1px solid yellow; */
+        background-color: rgba(0, 0, 0, 0.4);
+        position: relative;
+        left: 650px;
+        top: 200px;
+        color: antiquewhite;
+    }
+    .about h1{
+       margin-top: 10px;
+       margin-left: 40px;
+       font-family: 'Times New Roman', Times, serif;
+       letter-spacing: 6px;
+       
+    }
+    .about h4{
+        margin-left: 40px;
+        padding-top: 10px;
+    }
+    button{
+        border: 2px solid antiquewhite;
+        font-weight: bold;
+        font-size: 60;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10px;
+        text-align: center;
+        width: 100px;
+        margin-left: 400px;
+        margin-top: 75px;
+        background-color: rgba(0, 0, 0, 0.3);
+        color: antiquewhite;
+    }
+     h5{
+        color: antiquewhite;
+        margin-top: 350px;
+    }
+
+    /* .page2 */
+    .page2{
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.90);
+    }
+    .page2 h1{
+        text-align: center;
+        color: antiquewhite;
+        letter-spacing: 5px;
+        margin-top: 20px;
+    }
+    .page2 .team{
+        height: 250px;
+        width: 80%;
+        /* border: 1px solid yellow; */
+        margin-left: 10%;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .page2 .team .img1{
+        height: 250px;
+        width: 200px;
+        /* border: 1px solid green; */
+    }
+    .page2 .team .img2{
+        height: 250px;
+        width: 200px;
+        /* border: 1px solid green; */
+    }
+    .page2 .team .img3{
+        height: 250px;
+        width: 200px;
+        /* border: 1px solid green; */
+    }
+    .page2 .team .img4{
+        height: 250px;
+        width: 200px;
+        /* border: 1px solid green; */
+    }
+    .page2 .team .img5{
+        height: 250px;
+        width: 200px;
+        /* border: 1px solid green; */
+    }
+
+    .page2 .team .img1 img{
+        height: 100%;
+        width: 100%;
+    }
+    .page2 .team .img2 img{
+        height: 100%;
+        width: 100%;
+    }
+    .page2 .team .img3 img{
+        height: 100%;
+        width: 100%;
+    }
+    .page2 .team .img4 img{
+        height: 100%;
+        width: 100%;
+    }
+    .page2 .team .img5 img{
+        height: 100%;
+        width: 100%;
+    }
+    .page2 .team h4{
+        color: darkgoldenrod;
+        text-align: center;
+        margin-top: -12px;
+        font-size: 20px;
+    }
+    .page2 h5{
+        color: antiquewhite;
+        margin-top: 210px;
+    }
+
+    /* footer */
+    footer{
+        height: 90vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.90);  
+    }
+   .last{
+        height: 300px;
+        width: 80%;
+        /* border: 1px solid yellow; */
+        color: antiquewhite;
+        margin-left: 10%;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .last .add{
+        height: 300px;
+        width: 350px;
+        /* border: 1px solid yellow; */
+    }
+    .last .form{
+        height: 300px;
+        width: 350px;
+        /* border: 1px solid yellow; */
+    }
+    .last .map{
+        height: 300px;
+        width: 350px;
+        /* border: 1px solid yellow; */
+    }
+    .last .form input{
+        color: aliceblue;
+        background-color: rgba(0, 0, 0, 0.90);
+        font-size: large;
+    }
+    .map iframe{
+        height: 100% ;
+        width: 100%;
+    }
+
+    .icon{
+        margin-top: 200px;
+        margin-left: 500px;
+    }
+    a{
+        color: antiquewhite;
+        letter-spacing: 10px;
+        text-decoration: none;
+    }
+
+
+
+
+
