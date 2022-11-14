@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div{
+            height: 400px;
+            width: 400px;
+            border: 4px double black;
+            border-radius: 50%;
+            margin-top: 100px;
+            margin-left: 500px;
+            background-color: skyblue;
+        }
+        img{
+            /* border: 1px solid black; */
+            height: 400px;
+            animation-name: rotate;
+            animation-duration: 15s;
+            animation-direction: normal;
+            animation-iteration-count: infinite;
+        }
+        @keyframes rotate{
+            0%{
+                
+                transform: rotate(0deg);
+            }
+            25%{
+                
+                transform: rotate(90deg);
+            }
+            50%{
+                
+                transform: rotate(180deg);
+            }
+            75%{
+                transform: rotate(270deg);
+            }
+            100%{
+                transform: rotate(380deg);
+            }
+        }
+    </style>
+</head>
+<body>
+   <div><img src="watch.png"></div>
+</body>
+</html>
