@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: thistle;
+}
+.col1{
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.col2{
+    border-top: 2px dotted black;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.col3{
+    border-left: 2px dashed black;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.col4{
+    border-right: 4px double black;
+    margin-top: 40px;
+    margin-left: 400px;
+}

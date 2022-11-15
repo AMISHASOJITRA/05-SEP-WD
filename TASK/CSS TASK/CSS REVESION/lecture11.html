@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lecture11</title>
+    <style>
+        h1{
+            font-size: 30px;
+            width: 300px;
+            text-align: center;
+        }
+        h1::after{
+            content:"";
+            width: 0%;
+            height: 6px;
+            background-color: maroon;
+            display: block;
+            margin: auto;
+            transition: 3s;
+        }
+        h1:hover::after{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>AFTER EFFECT</h1>
+</body>
+</html>

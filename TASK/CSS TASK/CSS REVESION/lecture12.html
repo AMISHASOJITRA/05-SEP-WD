@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lecture12</title>
+    <style>
+        div{
+            height: 100%;
+            width: 100%;
+            background-size: 100% 100%;
+            animation-name: slider;
+            border: 3px solid black;
+            animation-duration: 1s;
+            animation-direction: normal;
+            animation-iteration-count: infinite;
+        }
+        @keyframes slider{
+            25%{
+                background-image: url(img1.webp);
+            }
+            50%{
+                background-image: url(motor.jpg);
+            }
+            75%{
+                background-image: url(img3.jpg);
+            }
+            100%{
+                background-image: url(sunflower.webp);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
