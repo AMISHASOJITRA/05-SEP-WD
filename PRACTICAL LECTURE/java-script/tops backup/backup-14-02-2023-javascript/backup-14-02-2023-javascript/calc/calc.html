@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            margin-top: 5%;
+            background-color: rgb(83, 81, 81);
+        }
+        .clc{
+            width: 50%;
+            height: auto;
+            padding: 15px;
+           
+        }
+       
+        .tbl{
+           
+            width: 700px;
+            padding: 10px;
+            text-align: center;
+        }
+        button{
+            width: 100%;
+            padding: 20px 40px;
+            /* background-color: green; */
+            /* color: white; */
+            font-size: 24px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+      input[type="text"]{
+        width: 675px;
+        height: 50px;
+        text-align: right;
+        border: none;
+        outline: none;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+    </style>
+
+    <!-- js called here -->
+    <script src="js/calc.js"></script>
+</head>
+<body>
+    <center>
+
+    <div class="clc">
+    <input type="text" name="result" id="result" placeholder="0">
+
+    <table class="tbl" border="0.5px" cellspacing="5" cellpadding="0px" width="100%" style="border-radius: 10px;">
+            <tr >
+               <td><button>%</button></td>
+                <td><button>CE</button></td>
+                <td><button onclick="clr()">C</button></td>
+                <td><button   onclick="clr1()">&tritime;</button></td>
+            </tr>
+             <tr>
+                <td><button>1/x</button></td>
+                <td><button>x<sup>2</sup></button></td>
+                <td><button>2x</button></td>
+                <td><button>/</button></td>
+                
+            </tr>
+             <tr>
+                <td><button type="button" value="7" onclick="return display(this.value)">7</button></td>
+                <td><button value="8" onclick="return display(this.value)">8</button></td>
+                <td><button value="9" onclick="return display(this.value)">9</button></td>
+                <td><button value="*" onclick="return display(this.value)">*</button></td>
+            </tr>
+             <tr>
+                <td><button value="4" onclick="return display(this.value)">4</button></td>
+                <td><button value="5" onclick="return display(this.value)">5</button></td>
+                <td><button value="6" onclick="return display(this.value)">6</button></td>
+                <td><button value="-" onclick="return display(this.value)">-</button></td>
+            </tr>
+             <tr>
+                <td><button value="1" onclick="return display(this.value)">1</button></td>
+                <td><button value="2" onclick="return display(this.value)">2</button></td>
+                <td><button value="3" onclick="return display(this.value)">3</button></td>
+                <td><button value="+" onclick="return display(this.value)">+</button></td>
+            </tr>
+             <tr>
+                <td><button>+/-</button></td>
+                <td><button value="0" onclick="return display(this.value)">0</button></td>
+                <td><button value="." onclick="return display(this.value)">.</button></td>
+                <td><button value="=" onclick="finalresult()">=</button></td>
+            </tr>
+        </table>
+
+    </div>
+    </center>
+</body>
+</html>

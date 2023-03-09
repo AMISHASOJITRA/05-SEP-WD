@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom5</title>
+    <script>
+        function stl()
+        {
+            document.getElementById("im").style="hight:300px; width:300px"
+        }
+        function test1()
+        {
+            document.getElementById("im").src="img.jpg";
+        }
+        function test2()
+        {
+            document.getElementById("im").src="photo.jpg";
+        }
+    </script>
+</head>
+<body onload="stl()">
+    <img src="img.jpg" alt="" id="im">
+    <br>
+    <button type="button" id="btn1" onclick="test1()">Image 1</button>
+    <button type="button" id="btn2" onclick="test2()">Image 2</button>
+</body>
+</html>

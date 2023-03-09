@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom 6 Calculator</title>
+    <script src="calc.js"></script>
+</head>
+<style>
+    input[type=text]
+    {
+        font-size: 20px;
+        border: 2px solid black;
+        border-radius: 5px;
+        
+    }
+    #add[type=button]
+    {
+        margin-left: 37%;
+        height: 30px;
+        width: 200px;
+        background-color: red;
+        font-size: 20px;
+        border-style: none;
+        border-radius: 5px;
+        color: aliceblue;
+    }
+    #sub[type=button]
+    {
+        height: 30px;
+        width: 200px;
+        background-color: red;
+        font-size: 20px;
+        border-style: none;
+        border-radius: 5px;
+        color: aliceblue;
+    }
+    #result{
+        width: 400px;
+        height: 20px;
+        background-color: rgb(7, 41, 70);
+        color: aliceblue;
+        font-size: 20px;
+    }
+</style>
+<body>
+
+<center>
+    <h1>Calculator</h1>
+    <br><br>
+    <input type="text" name="a" id="a" placeholder="Enter the value of A" style="width: 400px;">
+    <br><br>
+    <input type="text" name="b" id="b" placeholder="Enter the value of B" style="width: 400px;">
+
+    <h3 id="result">0</h3>
+    <br>
+</center>    
+<button type="button" id="add" onclick="btn()">For addition</button>
+<button type="button" id="sub" onclick="btn1()">For substraction</button>
+</body>
+</html>

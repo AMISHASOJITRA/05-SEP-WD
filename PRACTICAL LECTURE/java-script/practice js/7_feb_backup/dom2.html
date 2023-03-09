@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom 2</title>
+
+    <style>
+        button{
+            border-style: none;
+            background-color: aliceblue;
+            font-size: 20px;
+            border-radius: 3px;
+            position: absolute;
+            top: 200px;
+            left: 45%;
+        }
+    </style>
+
+    <script>
+        function  test()
+        {
+            document.getElementById("head").innerHTML="Welcome"
+            document.getElementById("para").innerHTML="This is paragraph."
+            document.getElementById("head").style="color:green; padding-left:45%;margin-top:300px;"
+            document.getElementById("para").style="color:green; padding-left:44%;margin-top:30px;font-size:20px;letter-spacing:3px"
+            document.getElementById()
+        }
+    </script>
+</head>
+<body>
+    <h1 id="head"></h1>
+    <p id="para"></p>
+    <button onclick="test()">Click here</button>
+</body>
+</html>
